@@ -1,0 +1,4 @@
+/opt/clion/CLion-2021.2.2/clion-2021.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/weronika/Pulpit/jpp2/simpleCalc
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/weronika/Pulpit/jpp2/simpleCalc/cmake-build-debug

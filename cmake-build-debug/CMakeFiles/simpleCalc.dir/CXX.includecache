@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/weronika/Pulpit/jpp2/simpleCalc/include/calc.h
+
+/home/weronika/Pulpit/jpp2/simpleCalc/src/main.cpp
+iostream
+-
+string
+-
+../include/calc.h
+/home/weronika/Pulpit/jpp2/simpleCalc/include/calc.h
+

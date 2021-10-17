@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/simpleCalc.dir/src/main.cpp.o CMakeFiles/simpleCalc.dir/src/calc.cpp.o -o simpleCalc 
