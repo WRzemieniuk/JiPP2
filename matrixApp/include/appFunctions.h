@@ -7,6 +7,8 @@
  * void printMatrix-procedura wypisująca na ekran przekazaną macierz
  * void structureOfProgram-procedura odpowiadająca za strukturę całego programu; sprawdzenie poprawności argumentów wywołania oraz odwołanie odpowiedich funkcji z biblioteki lib
  *void help- instrukcje do obsługi programu
+ *
+ *
  */
 
 using namespace std;

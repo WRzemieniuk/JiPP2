@@ -17,6 +17,7 @@
 
 double **addMatrix(double **A, double**B, int rows, int columns);
 
+
 double** subtractMatrix(double **A, double **B, int rows, int columns);
 
 double** multiplyMatrix(double **A, double **B, int aRows, int aColumns, int bColumns);
