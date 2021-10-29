@@ -1,28 +1,31 @@
 #include <iostream>
 #include <limits>
+#include <iomanip>
 #include "../include/appFunctions.h"
-#include "lib.h"
+#include "matrixLib.h"
 
 void help(){
-    cout<<"--------Help--------"<<endl<<
+
+    cout<<"------------------------------------Help------------------------------------"<<endl<<
         "Program do obsługi funkcjonalności biblioteki z działaniami na macierzach."<<endl
         <<"Użytkownik ma podać dokładnie dwa argumenty wyowłania. Najpierw jeden z niżej wymienionych działań:"<<endl
-        << "* addMatrix-funkcja odpowiadająca za dodawanie dwóch macierzy A i B, które wraz z liczbą wierszy i kolumn są przekazywanymi argumentami do funkcji"<<endl
+        <<"* addMatrix-funkcja odpowiadająca za dodawanie dwóch macierzy A i B, które wraz z liczbą wierszy i kolumn są przekazywanymi argumentami do funkcji"<<endl
         <<"* subtractMatrix-funkcja odpowiadająca za odejmowanie dwóch macierzy A i B, które wraz z liczbą wierszy i kolumn są przekazywanymi argumentami do funkcji"<<endl
         <<"* multiplyMatrix-funkcja odpowiadająca za mnożenie dwóch macierzy A i B, które wraz z liczbą wierszy, kolumn macierzy A oraz liczbą kolumn macierzy B są przekazywanymi argumentami do funkcji"<<endl
-        <<" * multiplyByScalar-funkcja odpowiadająca za mnożenie przez skalar macierzy A, która wraz z liczbą wierszy, kolumn oraz skalarem są przekazywanymi argumentami do funkcji. Skalar w funkcji jest przedstawiony za pomocą macierzy."<<endl
+        <<"* multiplyByScalar-funkcja odpowiadająca za mnożenie przez skalar macierzy A, która wraz z liczbą wierszy, kolumn oraz skalarem są przekazywanymi argumentami do funkcji. Skalar w funkcji jest przedstawiony za pomocą macierzy."<<endl
         <<"* transpozeMatrix-funkcja odpowiadająca za transponowanie macierzy A, która wraz z liczbą wierszy i kolumn są przekazywanymi argumentami do funkcji"<<endl
         <<"* powerMatrix-funkcja odpowiadająca za potęgowanie macierzy A, która wraz z liczbą wierszy, kolumn oraz stopniem potęgi są przekazywanymi argumentami do funkcji, funkcja korzysta z funkcji multiplyMatrix"<<endl
         <<"* determinantMatrix-funkcja odpowiadająca za obliczanie wyznacznika macierzy A, która wraz z liczbą wierszy i kolumn są przekazywanymi argumentami do funkcji."<<endl
-        <<"Funkcja korzysta z rekurencji, warynkiem jej przerwania jest osiągniecię macierzy 2x2. Macierz jest rozwijane według wiersza o indeksie 0 i sukcesywnie tworzona jest podmacierz powstała z kolejno wykreślanych wartości rozwijanego wiersza."<<endl
-        <<"Końcowa wynik to suma uzyskanych wyznaczników podmacierzy 2x2."<<endl
+        <<"Funkcja korzysta z rekurencji, warunkiem jej przerwania jest osiągniecie macierzy 2x2. Macierz jest rozwijana według wiersza o indeksie 0 i sukcesywnie tworzona jest podmacierz powstała z kolejno wykreślanych wartości rozwijanego wiersza."<<endl
+        <<"Końcowy wynik to suma uzyskanych wyznaczników podmacierzy 2x2."<<endl
         <<"* swap-procedura odpowiadająca za zamianę dwóch elementów macierzy A, które przez referencję są przekazywanymi argumentami do funkcji"<<endl
         <<"* sortRow-procedura odpowiadająca za posortowanie elementów algorytmem bąbelkowym podanego przez użytkownika wiersza macierzy A, przekazywane argumenty to macierz A i liczba kolumn"<<endl
         <<"* sortRowsInMatrix-funkcja odpowiadająca za posortowanie wszytskich wierszy macierzy A, korzystając z sortRow"<< endl
         <<"Kolejny argument to typ danych:"<<endl
-        <<"*double"<<endl
-        <<"*int"<<endl
-        <<"Użytkownik wpisuje z klawiatury macierz wierszami, liczby oddzielając spacją lub Entetem."<<endl;
+        <<"* double"<<endl
+        <<"* int"<<endl
+        <<"Użytkownik wpisuje z klawiatury macierz wierszami, liczby oddzielając spacją lub Enterem."<<endl
+        <<"Aby uzyskać pomoc, jako pierwszy argument wywołania podaj help, drugi argument jest dowolny."<<endl<<endl;
 }
 
 //funkcja pobierajaca od uzytkowanika liczbe kolumn oraz wierszy, a nastepnie poszczegolych wartosci macierzy, poczym przydzielana zostaje dla niej pamiec
@@ -56,14 +59,16 @@ double **getMatrix(int *rows, int *columns, char nameOfMatrix){
     for (int i = 0; i < *rows; ++i) {
         for (int j = 0; j < *columns; ++j) {
             while(!(cin>>matrix[i][j])){
-                cout<<"To nie liczba!"<<endl;
+                cout<<"Wprowadziłeś niepoprawnie macierz!"<<endl;
                 cin.clear();
                 cin.ignore(numeric_limits<streamsize>::max(),'\n');
-                cout<<"Podaj poprawną liczbę: ";
+                cout<<"Wprowadź poprawnie macierz: ";
             }
 
             counter++;
             if(counter==*rows*(*columns)){
+                cin.clear();
+                cin.ignore(numeric_limits<streamsize>::max(),'\n');
                 break;
             }
         }
@@ -83,14 +88,14 @@ int **getMatrixInt(int *rows, int *columns, char nameOfMatrix){
 
     cout<<"Podaj liczbę wierszy macierzy "<<nameOfMatrix<<":";
     while(!(cin>>*rows)){
-        cout<<"To nie liczba!"<<endl;
+        cout<<"To nie jest poprawna liczba!"<<endl;
         cin.clear();
         cin.ignore(numeric_limits<streamsize>::max(),'\n');
         cout<<"Podaj poprawną liczbę wierszy: ";
     }
     cout<<"Podaj liczbę kolumn macierzy "<<nameOfMatrix<<":";
     while(!(cin>>*columns)){
-        cout<<"To nie liczba!"<<endl;
+        cout<<"To nie jest poprawna liczba!"<<endl;
         cin.clear();
         cin.ignore(numeric_limits<streamsize>::max(),'\n');
         cout<<"Podaj poprawną liczbę kolumn: ";
@@ -105,14 +110,16 @@ int **getMatrixInt(int *rows, int *columns, char nameOfMatrix){
     for (int i = 0; i < *rows; ++i) {
         for (int j = 0; j < *columns; ++j) {
             while(!(cin>>matrix[i][j])){
-                cout<<"To nie liczba!"<<endl;
+                cout<<"Wprowadziłeś niepoprawnie macierz!"<<endl;
                 cin.clear();
                 cin.ignore(numeric_limits<streamsize>::max(),'\n');
-                cout<<"Podaj poprawną liczbę: ";
+                cout<<"Wprowadź poprawnie macierz: ";
             }
 
             counter++;
             if(counter==*rows*(*columns)){
+                cin.clear();
+                cin.ignore(numeric_limits<streamsize>::max(),'\n');
                 break;
             }
         }
@@ -128,7 +135,7 @@ void printMatrix(double **matrix, int rows, int columns, string nameOfMatrix){
     cout<<"Macierz "<<nameOfMatrix<<":"<<endl;
     for (int i = 0; i < rows; ++i) {
         for (int j = 0; j < columns; ++j) {
-            cout<<matrix[i][j]<<"  ";
+            cout<<right<<setw(3)<<matrix[i][j]<<"  ";
         }
         cout<<endl;
     }
@@ -139,7 +146,7 @@ void printMatrix(int **matrix, int rows, int columns, string nameOfMatrix){
     cout<<"Macierz "<<nameOfMatrix<<":"<<endl;
     for (int i = 0; i < rows; ++i) {
         for (int j = 0; j < columns; ++j) {
-            cout<<matrix[i][j]<<"  ";
+            cout<<right<<setw(3)<<matrix[i][j]<<"  ";
         }
         cout<<endl;
     }
@@ -148,7 +155,7 @@ void printMatrix(int **matrix, int rows, int columns, string nameOfMatrix){
 
 void structureOfProgram(int argc, string argument, string argument2) {
 
-    if(argument=="help"&&argument2=="help"){
+    if(argument=="help"){
         help();
     }
     if(argc!=3){
@@ -247,7 +254,7 @@ void structureOfProgram(int argc, string argument, string argument2) {
                     cout<<"Macierz nie jest diagonalna."<<endl;
             }
             else{
-                cout<<"Macierz nie jest kwadratowa, nie można wykonać potęgowania!"<<endl;
+                cout<<"Macierz nie jest kwadratowa, nie może być diagonalna!"<<endl;
             }
         }
         else if(argument=="swap"){
@@ -390,7 +397,7 @@ void structureOfProgram(int argc, string argument, string argument2) {
                     cout<<"Macierz nie jest diagonalna."<<endl;
             }
             else{
-                cout<<"Macierz nie jest kwadratowa, nie można wykonać potęgowania!"<<endl;
+                cout<<"Macierz nie jest kwadratowa, nie może być diagonalna!"<<endl;
             }
         }
         else if(argument=="swap"){
@@ -451,9 +458,13 @@ void structureOfProgram(int argc, string argument, string argument2) {
         }
     }
     else{
+        if(argument=="help"){
+            exit(0);
+        }
         cout<<"Błędnie wprowadzony argument typu danych."<<endl;
         help();
         exit(0);
+
     }
 }
 

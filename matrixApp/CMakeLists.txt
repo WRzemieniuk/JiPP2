@@ -12,3 +12,4 @@ add_executable(matrixApp
 
 # Załączamy do naszej aplikacji biblioteki. Musi to być po add_executable
 target_link_libraries(matrixApp matrixLib)
+

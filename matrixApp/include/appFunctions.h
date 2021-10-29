@@ -1,15 +1,25 @@
 
 
-/**
- Plik zawiera deklaracje funkcji:
- *double **getMatrix -funkcja pobierająca od uźytkowanika liczbę kolumn oraz wierszy,sprawdza poprawność wprowadzonych danych, a następnie poszczególych wartości macierzy,którą zwraca
- *int **getMatrixInt-analogiczna funkcja do getMatrix, jedyna różnica to,że przekazywane i zwracane argumenty są typu int
+/** @file appFunctions.cpp zawiera deklaracje funkcji:
+ * getMatrix -funkcja pobierająca od użytkowanika liczbę kolumn oraz wierszy,sprawdza poprawność wprowadzonych danych, a następnie poszczególych wartości macierzy,którą zwraca
+ * @param *rows, *columns, nameOfMatrix
+ * @return zwraca wskaźnik do macierzy powstałej przez wartości podawane przez użytkownika
+ *
+ * int **getMatrixInt-analogiczna funkcja do getMatrix, jedyna różnica to,że przekazywane i zwracane argumenty są typu int
+ * @param *rows, *columns, nameOfMatrix
+ * @return zwraca wskaźnik do macierzy powstałej przez wartości podawane przez użytkownika
+ *
  * void printMatrix-procedura wypisująca na ekran przekazaną macierz
- * void structureOfProgram-procedura odpowiadająca za strukturę całego programu; sprawdzenie poprawności argumentów wywołania oraz odwołanie odpowiedich funkcji z biblioteki lib
- *void help- instrukcje do obsługi programu
+ * @param **matrix, rows, columns, nameOfMatrux
+ *
+ * void structureOfProgram-procedura odpowiadająca za strukturę całego programu; sprawdzenie poprawności argumentów wywołania oraz odwołanie odpowiedich funkcji z biblioteki matrixLib
+ * @param argc, argument, argument2
+ *
+ * void help- instrukcje do obsługi programu
  *
  *
  */
+
 
 using namespace std;
 

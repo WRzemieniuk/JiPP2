@@ -7,6 +7,7 @@ project(zadania_klasy)
 project(FirstClass)
 
 project(structures)
+
 project(allocation_basics)
 
 project(matrixLib)
