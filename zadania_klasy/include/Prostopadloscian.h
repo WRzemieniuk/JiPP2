@@ -11,7 +11,13 @@ class Prostopadloscian {
         unsigned int c;
 
     public:
-        unsigned int polePowierzchni(unsigned int a, unsigned int b, unsigned int c);
+        Prostopadloscian();//(unsigned int a,unsigned int b,unsigned int c);//konstruktor
+        void setValue(unsigned int a, unsigned int b, unsigned int c);
+        unsigned int getValueA();
+        unsigned int getValueB();
+        unsigned int getValueC();
+        unsigned int polePowierzchni();
+        void printProstopadloscian(unsigned int polePowierzchni);
 
 };
 
