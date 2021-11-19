@@ -254,6 +254,18 @@ allocation_basics_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-bui
 allocation_basics_SOURCE_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/allocation_basics
 
 //Value Computed by CMake
+e1NoCopyingConstructor_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-debug/konstruktorKopiujacy
+
+//Value Computed by CMake
+e1NoCopyingConstructor_SOURCE_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/konstruktorKopiujacy
+
+//Value Computed by CMake
+funkcje_zaprzyjaznione_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-debug/lab6/funkcje_zaprzyjaznione
+
+//Value Computed by CMake
+funkcje_zaprzyjaznione_SOURCE_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/lab6/funkcje_zaprzyjaznione
+
+//Value Computed by CMake
 matrixLib_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-debug
 
 //Value Computed by CMake
@@ -390,7 +402,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

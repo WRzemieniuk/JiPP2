@@ -29,3 +29,7 @@ add_subdirectory(zadania_klasy)
 add_subdirectory(matrixApp)
 
 add_subdirectory(matrixLib)
+add_subdirectory(lab5)
+add_subdirectory(konstruktorKopiujacy)
+
+add_subdirectory(lab6/funkcje_zaprzyjaznione)
