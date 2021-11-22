@@ -1,7 +1,7 @@
 //
 // Created by weronika on 22.11.2021.
 //
-
+//
 #include "../include/Triangle.h"
 
 

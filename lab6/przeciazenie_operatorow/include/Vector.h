@@ -1,7 +1,7 @@
 //
 // Created by weronika on 21.11.2021.
 //
-
+//
 
 #ifndef PRZECIAZENIE_OPERATOROW_VECTOR_H
 #define PRZECIAZENIE_OPERATOROW_VECTOR_H

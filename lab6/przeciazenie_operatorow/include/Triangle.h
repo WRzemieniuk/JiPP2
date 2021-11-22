@@ -1,7 +1,7 @@
 //
 // Created by weronika on 22.11.2021.
 //
-
+//
 #ifndef PRZECIAZENIE_OPERATOROW_TRIANGLE_H
 #define PRZECIAZENIE_OPERATOROW_TRIANGLE_H
 

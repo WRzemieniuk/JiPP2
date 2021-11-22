@@ -1,7 +1,7 @@
 //
 // Created by filip on 11/14/21.
 //
-
+//
 #include "../include/Node.h"
 #include <iostream>
 #include <cmath>
