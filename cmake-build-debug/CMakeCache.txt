@@ -159,7 +159,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=matrixLib
+CMAKE_PROJECT_NAME:STATIC=przeciazenie_operatorow
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -270,6 +270,18 @@ matrixLib_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-debug
 
 //Value Computed by CMake
 matrixLib_SOURCE_DIR:STATIC=/home/weronika/Pulpit/Repozytorium
+
+//Value Computed by CMake
+przciazenie_operatorow_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-debug/lab6/przeciazenie_operatorow
+
+//Value Computed by CMake
+przciazenie_operatorow_SOURCE_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/lab6/przeciazenie_operatorow
+
+//Value Computed by CMake
+przeciazenie_operatorow_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-debug/lab6/przeciazenie_operatorow
+
+//Value Computed by CMake
+przeciazenie_operatorow_SOURCE_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/lab6/przeciazenie_operatorow
 
 //Value Computed by CMake
 simpleCalc_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-debug/simpleCalc
@@ -402,7 +414,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

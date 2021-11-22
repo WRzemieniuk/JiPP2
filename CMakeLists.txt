@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
+
 project(simpleCalc)
 
 project(zadania_klasy)
@@ -11,6 +12,8 @@ project(structures)
 project(allocation_basics)
 
 project(matrixLib)
+
+project(przeciazenie_operatorow)
 
 add_subdirectory(allocation_basics)
 
@@ -29,7 +32,10 @@ add_subdirectory(zadania_klasy)
 add_subdirectory(matrixApp)
 
 add_subdirectory(matrixLib)
+
 add_subdirectory(lab5)
 add_subdirectory(konstruktorKopiujacy)
 
 add_subdirectory(lab6/funkcje_zaprzyjaznione)
+
+add_subdirectory(lab6/przeciazenie_operatorow)
