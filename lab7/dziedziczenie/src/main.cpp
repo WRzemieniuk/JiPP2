@@ -15,6 +15,7 @@ int main(){
 //  cout<<"obw="<<t1.obwod(1,2,3);
 //
 
+
     Figure *circle = new Circle(5);
     Figure *rectangle = new Rectangle(5, 18);
 

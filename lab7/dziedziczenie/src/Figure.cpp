@@ -11,7 +11,6 @@ Figure::Figure(string nazwa, string kolor) {
 }
 
 
-
 Circle::Circle(double r):promien(r){}
 
 Rectangle::Rectangle(double aa, double bb):a(aa),b(bb){}
