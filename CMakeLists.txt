@@ -15,6 +15,8 @@ project(matrixLib)
 
 project(przeciazenie_operatorow)
 
+project(dziedziczenie)
+
 add_subdirectory(allocation_basics)
 
 add_subdirectory(simpleCalc)
@@ -39,3 +41,7 @@ add_subdirectory(konstruktorKopiujacy)
 add_subdirectory(lab6/funkcje_zaprzyjaznione)
 
 add_subdirectory(lab6/przeciazenie_operatorow)
+
+add_subdirectory(lab7/dziedziczenie)
+
+add_subdirectory(lab7/polimorfizm)
