@@ -20,6 +20,7 @@ public:
     void print();
 };
 
+
 class Circle:public Figure{
 protected:
     double promien;

@@ -16,6 +16,7 @@ Circle::Circle(double r):promien(r){}
 
 Rectangle::Rectangle(double aa, double bb):a(aa),b(bb){}
 
+
 double Circle::getArea() {
     return 3.1415*promien*promien;
 }
