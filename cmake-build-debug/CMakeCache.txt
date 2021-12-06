@@ -159,7 +159,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=dziedziczenie
+CMAKE_PROJECT_NAME:STATIC=lab8
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -224,12 +224,6 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-Calc_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-debug/simpleCalc
-
-//Value Computed by CMake
-Calc_SOURCE_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/simpleCalc
-
-//Value Computed by CMake
 FirstClass_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-debug/FirstClass
 
 //Value Computed by CMake
@@ -240,12 +234,6 @@ ProcessorCount_cmd_nproc:FILEPATH=/usr/bin/nproc
 
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
-
-//Value Computed by CMake
-Project_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-debug
-
-//Value Computed by CMake
-Project_SOURCE_DIR:STATIC=/home/weronika/Pulpit/Repozytorium
 
 //Value Computed by CMake
 allocation_basics_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-debug/allocation_basics
@@ -260,12 +248,6 @@ dziedziczenie_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-d
 dziedziczenie_SOURCE_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/lab7/dziedziczenie
 
 //Value Computed by CMake
-dziwdziczenie_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-debug
-
-//Value Computed by CMake
-dziwdziczenie_SOURCE_DIR:STATIC=/home/weronika/Pulpit/Repozytorium
-
-//Value Computed by CMake
 e1NoCopyingConstructor_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-debug/konstruktorKopiujacy
 
 //Value Computed by CMake
@@ -278,6 +260,12 @@ funkcje_zaprzyjaznione_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmak
 funkcje_zaprzyjaznione_SOURCE_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/lab6/funkcje_zaprzyjaznione
 
 //Value Computed by CMake
+lab8_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-debug/lab8
+
+//Value Computed by CMake
+lab8_SOURCE_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/lab8
+
+//Value Computed by CMake
 matrixLib_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-debug
 
 //Value Computed by CMake
@@ -288,12 +276,6 @@ polimorfizm_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-deb
 
 //Value Computed by CMake
 polimorfizm_SOURCE_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/lab7/polimorfizm
-
-//Value Computed by CMake
-przciazenie_operatorow_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-debug/lab6/przeciazenie_operatorow
-
-//Value Computed by CMake
-przciazenie_operatorow_SOURCE_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/lab6/przeciazenie_operatorow
 
 //Value Computed by CMake
 przeciazenie_operatorow_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-debug/lab6/przeciazenie_operatorow
@@ -432,7 +414,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=16
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=17
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

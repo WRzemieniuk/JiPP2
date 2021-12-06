@@ -17,6 +17,8 @@ project(przeciazenie_operatorow)
 
 project(dziedziczenie)
 
+project(lab8)
+
 add_subdirectory(allocation_basics)
 
 add_subdirectory(simpleCalc)
@@ -45,3 +47,6 @@ add_subdirectory(lab6/przeciazenie_operatorow)
 add_subdirectory(lab7/dziedziczenie)
 
 add_subdirectory(lab7/polimorfizm)
+
+add_subdirectory(lab8)
+
