@@ -159,7 +159,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=lab8
+CMAKE_PROJECT_NAME:STATIC=Repozytorium
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -236,6 +236,18 @@ ProcessorCount_cmd_nproc:FILEPATH=/usr/bin/nproc
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
 //Value Computed by CMake
+Project_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-debug
+
+//Value Computed by CMake
+Project_SOURCE_DIR:STATIC=/home/weronika/Pulpit/Repozytorium
+
+//Value Computed by CMake
+Repozytorium_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-debug
+
+//Value Computed by CMake
+Repozytorium_SOURCE_DIR:STATIC=/home/weronika/Pulpit/Repozytorium
+
+//Value Computed by CMake
 allocation_basics_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-debug/allocation_basics
 
 //Value Computed by CMake
@@ -258,6 +270,24 @@ funkcje_zaprzyjaznione_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmak
 
 //Value Computed by CMake
 funkcje_zaprzyjaznione_SOURCE_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/lab6/funkcje_zaprzyjaznione
+
+//Value Computed by CMake
+kontenery_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-debug/lab9/kontenery
+
+//Value Computed by CMake
+kontenery_SOURCE_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/lab9/kontenery
+
+//Value Computed by CMake
+lab3_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-debug/lab3
+
+//Value Computed by CMake
+lab3_SOURCE_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/lab3
+
+//Value Computed by CMake
+lab4_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-debug/lab4
+
+//Value Computed by CMake
+lab4_SOURCE_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/lab4
 
 //Value Computed by CMake
 lab8_BINARY_DIR:STATIC=/home/weronika/Pulpit/Repozytorium/cmake-build-debug/lab8
@@ -414,7 +444,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=17
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=20
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -6,14 +6,16 @@
 
 
 Point::Point(double x, double y, string name) : name(name) {
-    this->x=new double;//!!!!
+   this->x=new double;//!!!!
+   this->y=new double;//!!!!
     *this->x = x;
     *this->y = y;
 }
 Point::Point(Point &point){//lonstruktor kopiujący
     name=point.name;
     x=new double;//!!!!
-    *x=*point.x;
+    y=new double;
+    *x=*point.x;//kopiowanie wartosci
     *y=*point.y;
 }
 Point::~Point(){

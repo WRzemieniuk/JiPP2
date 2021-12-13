@@ -13,8 +13,9 @@ struct samochod{
 
 int sameBrand(samochod tablicaSamochodow[], int liczbaElementow ){
     int countSameBrand=0;
-    for (int i = 0; i < liczbaElementow-1; ++i) {
-        for (int j = 1; j < liczbaElementow; ++j) {
+
+    for (int i = 1; i < liczbaElementow-1; ++i) {
+        for (int j = 0; j < i; ++j) {
             if(countSameBrand==liczbaElementow)
                 break;
             if(i==j)

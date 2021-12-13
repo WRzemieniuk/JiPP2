@@ -15,8 +15,8 @@ using namespace std;
 
 class Point {
 private:
-    double *x = new double;
-    double *y = new double;
+    double *x ;
+    double *y ;
     string name;
 
 public:
