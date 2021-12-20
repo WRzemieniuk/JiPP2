@@ -38,5 +38,7 @@ add_subdirectory(lab3)
 add_subdirectory(lab7/polimorfizm)
 
 add_subdirectory(lab8)
+
 add_subdirectory(lab9/kontenery)
 
+add_subdirectory(lab10/szablon)
